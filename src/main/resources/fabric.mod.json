@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "serverlistzoom",
+  "version": "${version}",
+  "name": "Server List Zoom",
+  "description": "Shows the multiplayer server list at GUI Scale 2, no matter what GUI Scale you use everywhere else.",
+  "authors": [],
+  "license": "CC0-1.0",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.serverlistzoom.ServerListZoomMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
